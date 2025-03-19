@@ -1,0 +1,14 @@
+@import url(reset.css);
+.list {color: rgb(38, 0, 255);}
+.main-facts ~ div {color: rgb(168, 0, 0);}
+[class*="nav"] {color: rgb(59, 7, 7);}
+.under-title {color: blueviolet;}
+p {color: rgb(0, 9, 128);}
+
+.level1 { color: red;}
+.level1 ~ li { color: green;}
+.level1 > ul > .level2 {color: blue;}
+.level1 > ul > li {color: orange;}
+.level1 > ul > li > ol > .lelev3 {color: #4597f7;}
+.level1 > ul > li > ol > li {color: #5d5d5d;}
+.level1 > ul > li > span {color: #a0f0fc;}
