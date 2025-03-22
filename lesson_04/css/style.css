@@ -1,0 +1,56 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.title {
+	color: #000000;
+	font-family: Montserrat;
+	font-size: 46px;
+	font-style: bold;
+	font-weight: 700;
+	line-height: 60px;
+	text-shadow: 10px 5px 1px #727272;
+	text-align: center;
+}
+.undertitle,
+.ending {
+	color: #000000;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.firstlist {
+	color: #580f2b;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: bold;
+	font-weight: 700;
+}
+.secondlist {
+	color: #33006d;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+}
+.ending {
+	text-decoration: underline;
+}
+
+.bazartitle {
+	color: #1a1a1a;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+}
+
+.bazarundertitle,
+.bazarmain {
+	color: #808080;
+	font-family: Poppins;
+	font-size: 18px;
+	line-height: 150%;
+}
