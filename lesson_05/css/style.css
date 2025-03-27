@@ -1,0 +1,194 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+body {
+	font-family: Montserrat;
+	font-size: 25px;
+}
+
+img {
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+.block-figma {
+	background: #231f8b;
+	color: rgb(255, 255, 255);
+	padding: 151px 416px 112px 454px;
+}
+.text-figma {
+	margin-bottom: 70px;
+}
+.advantages {
+	color: #5a54f2;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	max-width: 765px;
+}
+.explore {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-family: "Circular Std";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.built {
+	color: var(--light-text-color, #fff);
+	font-family: "Circular Std";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+}
+.cards-figma {
+	margin-bottom: 112px;
+	margin-left: -5px;
+	margin-right: -5px;
+	font-size: 0;
+}
+.card1 {
+	max-width: 230px;
+	min-height: 288px;
+	padding: 35px 40px;
+	display: inline-block;
+	background-color: #fff;
+	margin-right: 30px;
+}
+.card2 {
+	max-width: 230px;
+	min-height: 288px;
+	padding: 35px 40px;
+	display: inline-block;
+	background-color: #fff;
+	margin-right: 30px;
+	vertical-align: -68px;
+}
+.card3 {
+	max-width: 230px;
+	min-height: 288px;
+	padding: 35px 40px;
+	display: inline-block;
+	background-color: #5a54f2;
+	margin-right: 30px;
+	color: #fff;
+}
+.card4 {
+	max-width: 230px;
+	min-height: 288px;
+	padding: 35px 40px;
+	display: inline-block;
+	background-color: #fff;
+	margin-right: 30px;
+	vertical-align: -68px;
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+}
+
+.title1,
+.title2,
+.title4 {
+	color: var(--text-color, #252b42);
+	font-family: "Circular Std";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	padding: 20px 0 20px 0;
+}
+.title3 {
+	color: var(--text-color, #ffffff);
+	font-family: "Circular Std", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	padding: 20px 0 20px 0;
+}
+
+.paragraph1 {
+	color: var(--second-text-color, #737373);
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	padding-top: 20px;
+}
+.paragraph2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #737373;
+	padding-top: 20px;
+}
+.paragraph3 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #fff;
+	padding-top: 20px;
+}
+.paragraph4 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #737373;
+	padding-top: 20px;
+}
+
+.border {
+	width: 50px;
+	height: 2px;
+	background-color: #e74040;
+}
+.border2 {
+	width: 50px;
+	height: 2px;
+	background-color: #ffffff;
+}
+.practice {
+	background-color: rgb(0, 161, 121);
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	max-width: 100%;
+	padding-top: 10px;
+}
+.title {
+	font-size: 40px;
+	text-align: center;
+	text-shadow: #252b42 -2px 2px;
+}
+.v-scroll {
+	background-color: #490000;
+	margin-left: 300px;
+	width: 400px;
+	height: 500px;
+	overflow: scroll;
+}
+.h-scroll {
+	line-height: 1;
+	margin-left: 500px;
+	white-space: nowrap;
+	overflow: auto;
+	min-height: 20px;
+	width: 1000px;
+}
