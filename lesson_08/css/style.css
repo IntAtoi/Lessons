@@ -1,0 +1,71 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+header {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	background: rgba(0, 0, 0, 0.493);
+	margin-bottom: 40px;
+}
+body {
+	background-image: url(../img/fghj.jpg);
+	background-attachment: fixed;
+	background-size: 25%;
+	font-family:
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		Roboto,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		"Open Sans",
+		"Helvetica Neue",
+		sans-serif;
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+.container {
+	max-width: 1800px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.table {
+	border-radius: 0.5%;
+	color: #fff;
+	font-size: 25px;
+	max-width: 1000px;
+	padding: 15px 20px;
+	margin: 0 auto;
+	border: 2px solid rgba(255, 255, 255, 0.555);
+	background: rgba(29, 40, 253, 0.336);
+	background: linear-gradient(330deg, rgba(29, 40, 253, 0.281) 28%, rgba(0, 0, 0, 0.575) 74%);
+}
+img {
+	max-width: 347px;
+}
+.picture {
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.picture:last-child {
+	margin-bottom: 0px;
+}
+.picture > .hover:hover {
+	background-color: #ffffff5e;
+}
+
+.hover-icon:hover {
+	transform: scale(1.05);
+}
+
+footer {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	background: rgba(0, 0, 0, 0.493);
+}
