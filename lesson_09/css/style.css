@@ -1,0 +1,23 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+header {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	background: rgba(0, 0, 0, 0.493);
+	margin-bottom: 40px;
+}
+footer {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	background: rgba(0, 0, 0, 0.493);
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+
+
+
