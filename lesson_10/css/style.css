@@ -1,0 +1,242 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+header {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	background: rgba(0, 0, 0, 0.493);
+	margin-bottom: 40px;
+}
+footer {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	background: rgba(0, 0, 0, 0.493);
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+.products__container {
+	max-width: 1516px;
+	margin-inline: auto;
+	padding-inline: 15px;
+	padding-block: 100px;
+	font-family: Poppins;
+}
+.products__card {
+	position: relative;
+	max-width: 312px;
+	height: 407px;
+	border: 1px solid #e6e6e6;
+}
+.products__content {
+	padding: 16px;
+}
+.products__title {
+	color: #4d4d4d;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.products__price {
+	color: #1a1a1a;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 150%;
+}
+.add-to-cart {
+	position: absolute;
+	right: 16px;
+	bottom: 24px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #f2f2f2;
+	text-align: center;
+	align-content: center;
+	cursor: pointer;
+}
+.add-to-wishlist {
+	position: absolute;
+	right: 16px;
+	top: 16px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	border: #1a1a1a3b solid 1px;
+	text-align: center;
+	align-content: center;
+	cursor: pointer;
+}
+.quick-view {
+	position: absolute;
+	right: 16px;
+	top: 62px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #f2f2f2;
+	border: #1a1a1a3b solid 1px;
+	text-align: center;
+	align-content: center;
+	cursor: pointer;
+}
+.products__hover-icons {
+	visibility: hidden;
+}
+.products__card:hover {
+	border: #00b207 solid 1px;
+	box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+.products__card:hover .products__hover-icons {
+	visibility: visible;
+}
+.add-to-cart:hover {
+	background-color: #00b207;
+}
+.add-to-wishlist:hover,
+.quick-view:hover {
+	background-color: #d6d6d6;
+}
+.products__card:hover .products__title {
+	color: #2c742f;
+}
+.products__title:hover {
+	text-decoration: underline;
+}
+
+.documentation {
+	background-color: #5a54f2;
+	position: relative;
+}
+.documentation__container {
+	max-width: 1570px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+.documentation__block1 {
+	margin-left: 128px;
+	max-width: 100%;
+}
+
+.documentation__content {
+	color: #fff;
+	font-family: Roboto;
+}
+.documentation__block1 > .documentation__content {
+	margin-left: 70px;
+	max-width: 602px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.documentation__title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 13px;
+}
+.documentation__paragraph {
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 39px;
+}
+.documentation__button {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: normal;
+	max-width: 256px;
+	height: 64px;
+	border-radius: 60px;
+	background: #f35b09;
+	align-content: center;
+}
+.documentation__block1 > .documentation__image {
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 20px;
+	max-width: 430px;
+	margin-right: 70px;
+	position: relative;
+	top: -40px;
+	z-index: 10;
+}
+.documentation__block1 > .documentation__content {
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+	text-align: left;
+}
+.documentation__block2 {
+	margin-right: 183px;
+	max-width: 100%;
+}
+.documentation__block2 > .documentation__content {
+	margin-right: 70px;
+	max-width: 480px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+.documentation__block2 > .documentation__image {
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 20px;
+	max-width: 430px;
+	margin-left: 70px;
+	position: relative;
+	top: 100px;
+	left: 962px;
+	z-index: 10;
+}
+
+.documentation__block1 > .documentation__image::before {
+	content: "";
+	background: url(../img/ellipses.svg) no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	left: -29.77%;
+	top: 30%;
+}
+.documentation__block1 > .documentation__image::after {
+	content: "";
+	background: url(../img/Group\ 7.svg) no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	left: -22%;
+	top: 76%;
+}
+.documentation__block2 > .documentation__image::before {
+	content: "";
+	background: url(../img/Group\ 5909.svg) no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	left: 40%;
+	top: -5%;
+}
+.documentation__block2 > .documentation__image::after {
+	content: "";
+	background: url(../img/Ellipse\ 33.svg) no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+	left: 21.39%;
+	top: -7%;
+}
+.documentation__button:hover {
+	background-color: #bd4809;
+}
