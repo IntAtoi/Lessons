@@ -1,0 +1,190 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+header {
+	height: 50px;
+	color: #ffffff;
+	text-align: center;
+	align-content: center;
+	font-size: 30px;
+	background: #ffffff;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+footer {
+	height: 50px;
+	color: #fff;
+	text-align: center;
+	align-content: center;
+	font-size: 30px;
+	background: #ffffff;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.practice {
+	background-color: aliceblue;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.practice__card {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	background-color: rgba(63, 63, 63, 0.281);
+	border-radius: 5%;
+	border: solid rgba(0, 0, 0, 0.24) 1px;
+	padding: 20px;
+	margin: 20px;
+}
+.practice__sample {
+	background-color: rgba(49, 0, 148, 0.404);
+	border: solid rgb(255, 255, 255) 1px;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 20px;
+	transition: transform 0.5s;
+}
+.sample1:hover {
+	transform: translate(20px, 20px);
+}
+
+.sample2:hover {
+	transform: scale(0.5, 0.5);
+}
+
+.sample3:hover {
+	transform: rotate(45deg);
+}
+
+.sample4:hover {
+	transform: skew(10deg, 10deg);
+}
+
+.sample5:hover {
+	transform: matrix(0.5, 0.1, 0.1, 0.5, 10, 15);
+}
+
+.sample6:hover {
+	transform: translate3d(20px, 20px, 20px);
+}
+
+.sample7:hover {
+	transform: scale3d(1.2, 1.2, 2);
+}
+
+.sample8:hover {
+	transform: rotate3d(2, 3, 1, 45deg);
+}
+
+.sample9:hover {
+	transform-origin: bottom;
+	transform: rotate(20deg);
+}
+
+.sample10:hover {
+	transform: translate(20px, 20px) rotate(-30deg);
+}
+
+.background {
+	background-image: url(../img/clouds-4k-bfidy3k47wphva14.jpg);
+	max-width: 1920px;
+	max-height: 1080px;
+	text-align: center;
+	align-content: center;
+}
+.transport {
+	margin: 100px;
+	vertical-align: middle;
+}
+.transport__hull {
+	background-color: #aaaaaa;
+	width: 700px;
+	height: 100px;
+	border-radius: 10% 24% 10% 28% / 7% 39% 43% 69%;
+	border: black solid 2px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+.transport__wind {
+	position: relative;
+	background-color: #bebebe;
+	width: 200px;
+	height: 25px;
+	border: black solid 2px;
+	border-radius: 10% 60% 24% 48% / 32% 42% 50% 62%;
+	top: -50px;
+	left: 250px;
+	z-index: 3;
+}
+.transport__engine {
+	position: relative;
+	width: 60px;
+	height: 25px;
+	background-color: #bebebe;
+	border: black solid 2px;
+	border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
+	left: 350px;
+	top: -130px;
+	z-index: 2;
+}
+.transport__keel {
+	position: relative;
+	background-color: #bebebe;
+	border: black solid 2px;
+	width: 50px;
+	height: 75px;
+	border-radius: 0% 52% 0% 0% / 27% 50% 0% 42%;
+	top: -180px;
+	left: -5px;
+	z-index: 0;
+	transform: skew(10deg);
+}
+.transport__portholes {
+	position: relative;
+	top: -205px;
+	left: -500px;
+	z-index: 1;
+}
+.transport__porthole {
+	display: inline-block;
+	margin-right: 20px;
+	background-color: #333333b0;
+	border: black solid 2px;
+	width: 20px;
+	height: 30px;
+	border-radius: 50%;
+}
+.pilot-window {
+	position: relative;
+	width: 80px;
+	height: 50px;
+	background-color: #00ebfc34;
+	border: black solid 2px;
+	left: 600px;
+}
+.door1 {
+	position: relative;
+	width: 30px;
+	height: 50px;
+	background-color: #bebebe;
+	border: black solid 1px;
+	border-radius: 10%;
+	left: 528px;
+	top: -5px;
+}
+.door2 {
+	position: relative;
+	width: 30px;
+	height: 50px;
+	background-color: #bebebe;
+	border: black solid 1px;
+	border-radius: 10%;
+	left: 175px;
+	top: -55px;
+}
