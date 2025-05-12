@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson_14</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">Lesson 14</header>
+		<main class="page">
+			<div class="section">
+				<div class="container">
+					<div class="billing">
+						<div class="billing__title">
+							<h2>Billing Information</h2>
+						</div>
+						<div class="billing__names">
+							<div class="billing__name">
+								<label class="billing__name--label form-title" for="first-name">First name</label>
+								<input id="first-name" class="billing__name--form" required type="text" placeholder="Your first name">
+							</div>
+							<div class="billing__name">
+								<label class="billing__name--label form-title" for="last-name">Last name</label>
+								<input id="last-name" class="billing__name--form" required type="text" placeholder="Your last name">
+							</div>
+							<div class="billing__name">
+								<label class="billing__name--label form-title" for="company-name">Company Name (optional)</label>
+								<input id="company-name" class="billing__name--form" type="text" placeholder="Company name">
+							</div>
+						</div>
+						<div class="billing__street">
+							<label class="billing__street--label form-title" for="street-address">Street Address</label>
+							<input id="street-address" class="billing__street--form-long" required type="text" placeholder="Street Address">
+						</div>
+						<div class="billing__country--container">
+							<div class="billing__country">
+								<label class="billing__country--label form-title" for="country">Country / Region</label>
+								<select id="country" class="billing__country--form" required>
+									<option value="">Select</option>
+								</select>
+							</div>
+							<div class="billing__country">
+								<label class="billing__country--label form-title" for="states">States</label>
+								<select id="states" class="billing__country--form" required>
+									<option value="">Select</option>
+								</select>
+							</div>
+							<div class="billing__country">
+								<label class="billing__country--label form-title" for="zip-code">Zip Code</label>
+								<input id="zip-code" class="billing__country--form" required type="text" placeholder="Zip Code">
+							</div>
+						</div>
+						<div class="billing__contacts">
+							<div class="billing__contacts--email">
+								<label class="billing__contacts--email-label form-title" for="email">Email</label>
+								<input id="email" class="billing__contacts--form" required type="email" placeholder="Email Address">
+							</div>
+							<div class="billing__contacts--phone">
+								<label class="billing__contacts--phone-label form-title" for="phone">Phone</label>
+								<input id="phone" class="billing__contacts--form" required type="tel" placeholder="Phone number">
+							</div>
+						</div>
+						<div class="billing__checkbox-container">
+							<label>
+								<input type="checkbox" name="form[]" class="billing__checkbox">
+								<span class="form-title checkbox-title">Ship to a different address</span>
+							</label>
+						</div>
+						<div class="billing__add-info">
+							<h2 class="billing__add-info--title">Additional Info</h2>
+							<label class="billing__add-info--label">
+								<span class="form-title">Order Notes (Optional)</span>
+								<textarea class="billing__add-info--textarea" name="form[]" placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+							</label>
+						</div>
+					</div>
+					<div class="summery">
+						<div class="summery__title">
+							<h2>Order Summery</h2>
+						</div>
+						<div class="summery__products">
+							<div class="summery__product">
+								<img src="img/green-capsicum.jpg" alt="green-capsicum">
+								<div class="summery__product--title">
+									<p>Green Capsicum x5</p>
+								</div>
+								<div class="summery__product--price">
+									<p>$70.00</p>
+								</div>
+							</div>
+							<div class="summery__product">
+								<img src="img/red-capsicum.png" alt="red-capsicum">
+								<div class="summery__product--title">
+									<p>Red Capsicum x1</p>
+								</div>
+								<div class="summery__product--price">
+									<p>$14.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="summery__price">
+							<div class="summery__price--subtotal price">
+								<p>Subtotal:</p>
+								<p>$84.00</p>
+							</div>
+							<div class="summery__price--shipping price">
+								<p>Shipping:</p>
+								<p>Free</p>
+							</div>
+							<div class="summery__price--total price">
+								<p>Total:</p>
+								<p class="summery__price--total-strong">$84.00</p>
+							</div>
+						</div>
+						<div class="summery__payment">
+							<div class="summery__payment--title">
+								<h2>Payment Method</h2>
+							</div>
+							<label class="summery__radio">
+								<input required type="radio" name="form[payment]" class="summery__radio--input" checked>
+								<span class="radio__text">Cash on Delivery</span>
+							</label>
+							<label class="summery__radio">
+								<input required type="radio" name="form[payment]" class="summery__radio--input">
+								<span class="radio__text">Paypal</span>
+							</label>
+							<label class="summery__radio">
+								<input required type="radio" name="form[payment]" class="summery__radio--input">
+								<span class="radio__text">Amazon Pay</span>
+							</label>
+						</div>
+						<button class="summery__button">Place Order</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">End</footer>
+	</div>
+</body>
+
+</html>
